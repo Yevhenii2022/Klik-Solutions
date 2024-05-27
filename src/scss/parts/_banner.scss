@@ -1,0 +1,48 @@
+.banner {
+	padding: 16.25rem 0 10.714rem 0;
+
+	@include media(mobile) {
+		padding: 6rem 0 4rem 0;
+	}
+
+	&__title {
+		margin: 0 auto 3rem auto;
+		font-size: 8.571rem;
+		line-height: 0.9;
+
+		@include media(mobile) {
+			font-size: 3.2rem;
+		}
+
+		p:first-of-type {
+			display: flex;
+			align-items: center;
+		}
+
+		img {
+			margin-right: 2.3rem;
+			width: 7.143rem;
+			height: 7.143rem;
+
+			@include media(mobile) {
+				margin-right: 1rem;
+				width: 3.9rem;
+				height: 3.9rem;
+			}
+		}
+	}
+
+	&__subtitle {
+		margin: 0 auto 2.5rem auto;
+		width: fit-content;
+		font-family: $bold;
+		font-size: 1.857rem;
+		font-weight: 400;
+		line-height: 0.9;
+		text-transform: uppercase;
+
+		@include media(mobile) {
+			font-size: 1.5rem;
+		}
+	}
+}

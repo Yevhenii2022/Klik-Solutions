@@ -1,0 +1,24 @@
+.button {
+	margin: 0 auto;
+	padding: 1.643rem 3.786rem;
+	width: fit-content;
+	color: $yellow;
+	background-color: transparent;
+	transition: $transition;
+	border: 0.071rem solid $yellow;
+	border-radius: 3.571rem;
+
+	&:hover,
+	&:focus {
+		color: $blue;
+		background-color: $yellow;
+	}
+
+	p {
+		font-family: $medium;
+		font-size: 1.214rem;
+		font-weight: 500;
+		line-height: 1.5;
+		text-transform: uppercase;
+	}
+}

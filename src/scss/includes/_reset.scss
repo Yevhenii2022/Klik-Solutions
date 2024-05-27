@@ -1,0 +1,63 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+}
+
+ol,
+ul {
+	list-style: none;
+}
+
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+}
+
+caption,
+th,
+td {
+	text-align: left;
+	font-weight: normal;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: '';
+}
+
+blockquote,
+q {
+	quotes: '' '';
+}
+
+img {
+	max-width: 100%;
+	width: 100%;
+	object-fit: cover;
+	display: block;
+}
+
+a {
+	display: block;
+	text-decoration: none;
+}
+
+button {
+	background-color: transparent;
+	border: none;
+}
+
+a,
+button {
+	-webkit-tap-highlight-color: transparent;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
